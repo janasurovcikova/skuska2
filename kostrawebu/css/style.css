@@ -1,0 +1,12 @@
+/*GENERAL*/
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+/*CLEARFIX*/
+.group:before,
+.group:after { content: " "; display: table; }
+.group:after { clear: both; }
+
+html, body {
+	height: 100%;
+}
